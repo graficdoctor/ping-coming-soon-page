@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/logo.svg" class="logo" />
+      </header>
+
+      <div class="text-container">
+        <h1>We are launching <strong>soon!</strong></h1>
+        <p>Subscribe and get notified</p>
+      </div>
+
+      <form class="form-container" id="form">
+        <div class="email-collector">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-input"
+            placeholder="Your email address..."
+          />
+          <span class="message invalid"></span>
+        </div>
+        <button class="btn" id="submit-btn">Notify Me</button>
+      </form>
+
+      <div class="image-container">
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="illustration of slack-dashboard"
+        />
+      </div>
+
+      <div class="social-container">
+        <a href="#" class="social-icon"
+          ><ion-icon name="logo-facebook"></ion-icon
+        ></a>
+        <a href="#" class="social-icon"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+        <a href="#" class="social-icon"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </div>
+      <p class="copyright-text">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+
+    <!-- Footer -->
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+
+    <!-- Script -->
+    <script src="script/app.js"></script>
+  </body>
+</html>
